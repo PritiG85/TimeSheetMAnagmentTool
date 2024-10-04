@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testPackage.CreateUserManager">
+        <methods>
+          <include name="createUserManagerTC"/>
+        </methods>
+      </class> <!-- testPackage.CreateUserManager -->
+      <class name="testPackage.InvalidLoginTestCase">
+        <methods>
+          <include name="invalidLoginTC"/>
+        </methods>
+      </class> <!-- testPackage.InvalidLoginTestCase -->
+      <class name="testPackage.ValidloginTestCase">
+        <methods>
+          <include name="loginTestCase"/>
+        </methods>
+      </class> <!-- testPackage.ValidloginTestCase -->
+      <class name="testPackage.CreateProjectAndCustomer">
+        <methods>
+          <include name="createNewProjectManagerTC"/>
+        </methods>
+      </class> <!-- testPackage.CreateProjectAndCustomer -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
